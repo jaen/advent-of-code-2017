@@ -1,0 +1,22 @@
+{
+  "name": "aoc2017-purescript",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-prelude": "^3.1.1",
+    "purescript-console": "^3.0.0",
+    "purescript-unicode": "^3.0.0",
+    "purescript-exceptions": "^3.1.0",
+    "purescript-node-fs-aff": "^5.0.0",
+    "purescript-lists": "^4.12.0",
+    "purescript-foldable-traversable": "^3.6.1",
+    "purescript-unfoldable": "^3.0.0"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "^3.0.0"
+  }
+}
