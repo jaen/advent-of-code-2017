@@ -5,6 +5,7 @@ import Day1Spec
 import Day2Spec
 import Day3Spec
 import Day4Spec
+import Day5Spec
 
 main :: IO ()
 main = do
@@ -13,5 +14,6 @@ main = do
       (testGroup "Day1 Tests" [nextDigit, halfwayListAwayDigit]),
       (testGroup "Day2 Tests" [extremaDifferenceChecksum, evenlyDivisibleChecksum]),
       (testGroup "Day3 Tests" [matchingSpiralDistance]),
-      (testGroup "Day4 Tests" [testPassphraseValidation, testAnagramPassphraseValidation])
+      (testGroup "Day4 Tests" [testPassphraseValidation, testAnagramPassphraseValidation]),
+      (testGroup "Day5 Tests" [testNextState, testStepsToEscape])
     ]
