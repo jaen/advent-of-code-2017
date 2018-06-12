@@ -15,5 +15,5 @@ main = do
       (testGroup "Day2 Tests" [extremaDifferenceChecksum, evenlyDivisibleChecksum]),
       (testGroup "Day3 Tests" [matchingSpiralDistance]),
       (testGroup "Day4 Tests" [testPassphraseValidation, testAnagramPassphraseValidation]),
-      (testGroup "Day5 Tests" [testNextState, testStepsToEscape])
+      (testGroup "Day5 Tests" [testNextState, testStepsToEscape, testSeqStepsToEscape, testFastStepsToEscape])
     ]
